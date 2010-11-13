@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/julien/Documents/XEPrint/generated'
+let g:netrw_dirhist_2='/home/julien/Documents/XEPrint'
+let g:netrw_dirhist_3='/home/julien/workspace/XEPrint_asp'
+let g:netrw_dirhist_4='/usr/share/manage'
