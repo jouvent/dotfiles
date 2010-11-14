@@ -78,9 +78,9 @@ fi
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
-source ~/.bash_scripts/.rake_bash_completion.sh
-source ~/.bash_scripts/.django_bash_completion
-source ~/.bash_scripts/prompt.sh
+source ~/dotfiles/bash/rake_bash_completion.sh
+source ~/dotfiles/bash/django_bash_completion
+source ~/dotfiles/bash/prompt.sh
 export EDITOR="vi"
 
     export WORKON_HOME=$HOME/.virtualenvs
