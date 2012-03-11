@@ -83,5 +83,7 @@ source ~/dotfiles/bash/django_bash_completion
 source ~/dotfiles/bash/prompt.sh
 export EDITOR="vi"
 
+if [ -d ~/.virtualenvs ]; then
     export WORKON_HOME=$HOME/.virtualenvs
     source $HOME/.virtualenvwrapper
+fi
