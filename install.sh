@@ -3,10 +3,17 @@
 
 CURPATH=`pwd`
 
-rm ~/.vimrc
-ln -s $CURPATH/vimrc ~/.vimrc
-rm -r ~/.vim
-ln -s $CURPATH/vim ~/.vim
-rm ~/.bashrc
+mkdir -p ~/.config
+
+# bash
+rm -f ~/.bashrc
 ln -s $CURPATH/bashrc ~/.bashrc
+
+# nvim
+rm -f ~/.config/nvim
+ln -s $CURPATH/nvim ~/.config/nvim
+
+# git
+rm -f ~/.gitconfig
+ln -s $CURPATH/gitconfig ~/.gitconfig
 
