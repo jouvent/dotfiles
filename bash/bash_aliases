@@ -2,28 +2,18 @@
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     #alias fgrep='fgrep --color=auto'
     #alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
+# ls aliases
 alias ll='ls -l'
 alias lla='ls -l -A'
 alias la='ls -A'
-#alias l='ls -CF'
 
-# open all gvim in one instances and in separate tabe
-alias gvim='gvim --remote-tab-silent'
+# neovim
+alias vim='nvim'
 
-#todo 
-alias todo="~/.todo/todo.sh"
-
-# vim commands.. I just descided to stop fighting it
-alias :e='vim'
-alias :q='exit'
-alias :wq='exit'
-alias :wqa='exit'
+alias notes='cd ~/notes & vim .'
